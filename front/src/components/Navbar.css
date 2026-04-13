@@ -1,0 +1,86 @@
+.top-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  background: #0d1117 !important; /* Force dark background */
+  border-bottom: 1px solid #30363d;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.logo-icon {
+  font-size: 24px;
+  color: #79c0ff;
+}
+
+.logo-text {
+  color: #ffffff; /* Brightest white for logo */
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-menu {
+  background: transparent !important;
+  border-bottom: none !important;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 0;
+}
+
+.nav-menu .ant-menu-item {
+  color: #f0f6fc !important; /* Brighter default color */
+  font-weight: 500;
+  transition: all 0.3s ease;
+  background: transparent !important; /* Ensure transparent background */
+}
+
+.nav-menu .ant-menu-item-selected {
+  color: #a5d6ff !important; /* Brighter selected color */
+  background: transparent !important; /* Remove background on selected */
+}
+
+.nav-menu .ant-menu-item:hover {
+  color: #a5d6ff !important; /* Brighter hover color */
+  background: rgba(121, 192, 255, 0.1) !important; /* Subtle hover bg */
+}
+
+/* Fix active/clicked state background and text color */
+.nav-menu .ant-menu-item-active,
+.nav-menu .ant-menu-item-selected,
+.nav-menu .ant-menu-item:active,
+.nav-menu .ant-menu-item:focus,
+.nav-menu.ant-menu-dark .ant-menu-item-selected {
+  background: transparent !important;
+  color: #a5d6ff !important;
+}
+
+.nav-menu .ant-menu-item .anticon {
+  font-size: 18px;
+  color: #a5d6ff !important; /* Brighter icon color */
+}
+
+.nav-menu .ant-menu-item-active::after,
+.nav-menu .ant-menu-item-selected::after {
+  border-bottom-color: #a5d6ff !important;
+  border-bottom-width: 3px !important;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .logo-text {
+    display: none;
+  }
+}
