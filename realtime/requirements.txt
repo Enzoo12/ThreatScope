@@ -1,0 +1,10 @@
+torch
+flask==3.0.3
+flask_socketio==5.5.1
+eventlet==0.39.1
+pandas==2.2.2
+numpy==1.26.4
+transformers==4.48.2
+tensorflow==2.10.1
+faiss-cpu==1.10.0
+kafka-python==2.1.4

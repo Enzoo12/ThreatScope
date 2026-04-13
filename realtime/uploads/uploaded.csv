@@ -1,0 +1,4 @@
+id,date,user,pc,size,attachments,cleaned_content_x,email_sentiment_y,email_activity,activity_encoded
+{FYPQ-0001},10-04-2026 09:30,Alice,PC-1001,12000,0,weekly team update and project status meeting notes,0.35,email_positive,"[0.0, 3.0, 4.0, 6.0, 8.0, 11.0, 14.0, 1.0, 12.0, 4.0, 8.0, 99.0]"
+{FYPQ-0002},10-04-2026 22:45,Bob,PC-1002,45000,1,angry outraged bad things leave take seriously fault exacerbated two faced irreplaceable,-0.82,email_negative,"[15.0, 17.0, 18.0, 22.0, 24.0, 20.0, 26.0, 28.0, 22.0, 99.0, 99.0, 99.0]"
+{FYPQ-0003},11-04-2026 21:15,Charlie,PC-1003,38000,0,resignation notice tender resignation exit opportunity position interview resume job opening,-0.68,email_negative,"[15.0, 18.0, 22.0, 26.0, 27.0, 28.0, 20.0, 22.0, 99.0, 99.0, 99.0, 99.0]"
