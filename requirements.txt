@@ -1,0 +1,11 @@
+torch
+flask==3.0.3
+flask_socketio==5.5.1
+pandas==2.2.2
+numpy==1.26.4
+transformers==4.48.2
+faiss-cpu==1.10.0
+kafka-python==2.1.4
+Flask-CORS==5.0.1
+tensorflow==2.10.0
+Werkzeug==3.0.4
